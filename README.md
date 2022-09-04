@@ -56,8 +56,16 @@ Dan buka tauatan [localhost:8080](http://localhost:8080/)
 | Url        | Params           | Type | Keterangan |
 | ------------- |:-------------:| :-----:|  :-----|
 | /      | - | - | beranda  
-| /image/pinterest/{query}    | query |  String | Scraping from [pinterest](https://id.pinterest.ca) |
-| /image/wallpaperflare/{query}    | query |  String | Scraping from [wallpaperflare](https://wallpaperflare.com) |
+| /image/pinterest/{query}    | query |  String | Mencari gambar dari [pinterest](https://id.pinterest.ca) |
+| /image/wallpaperflare/{query}    | query |  String | Mencari gambar dari [wallpaperflare](https://wallpaperflare.com) |
+| /convert/emoji2png/{emoji}    | emoji |  String | Mengkonversi imoji/emoticon menjadi image/png |
+| /anime/anoboy/{query} | query | String | Mencari detail anime dari situs [anoboy](https://62.182.83.93) |
+| /anime/otakudesu/{query} | query | String | Mencari anime dan detail dari situs [otakudesu](https://otakudesu.fun/) |
+| /anime/mal/search/{query} | query | String | Mencari detail anime, dengan beberapa list dari situs [my anime list](https://myanimelist.net) |
+| /anime/mal/manga/{query} | query | String | Mencari detail manga, dengan beberapa list dari situs [my anime list](https://myanimelist.net) |
+| /anime/mal/character/{query} | query | String | Mencari character, dengan beberapa list dan detail character anime dari situs [my anime list](https://myanimelist.net) |
+| /anime/mal/top-airing | - | - | Dapatkan top airing hari ini dari [my anime list](https://myanimelist.net) |
+| /anime/mal/top-anime | - | - | Dapatkan top anime hari ini dari [my anime list](https://myanimelist.net) |
 
 
 ## Sample response
