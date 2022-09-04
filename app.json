@@ -1,0 +1,22 @@
+{
+  "name": "Simple Rest Api",
+  "description": "Free An Open Source code web API.",
+  "keywords": [
+    "webapi",
+    "restfullapi",
+    "nodejs",
+    "npm"
+  ],
+  "website": "https://darkcoder.xyz/",
+  "repository": "https://github.com/LoliKillers/simple-rest-api",
+  "logo": "https://avatars.githubusercontent.com/u/80396688?v=4",
+  "image": "heroku/nodejs",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}

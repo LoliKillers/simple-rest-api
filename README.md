@@ -51,6 +51,27 @@ npm run nodemon
 ```
 Dan buka tauatan [localhost:8080](http://localhost:8080/)
 
+### Deploy in heroku
+
+```shell
+npm install --global heroku
+heroku login
+git clone https://github.com/LoliKillers/simple-rest-api
+cd simple-rest-api
+heroku create YOUR_APP_NAME_HEROKU
+heroku git:remote -a YOUR_APP_NAME_IN_HEROKU
+git add .
+git commit -m "Make It Butter"
+git push heroku master
+```
+
+#### Or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LoliKillers/simple-rest-api)
+
+Open : [https://APP_NAME.herokuapp.com](https://APP_NAME.herokuapp.com)
+Demo : [https://simple-rest-api-example.herokuapp.com](https://simple-rest-api-example.herokuapp.com)
+
 ## Endpoint
 
 | Url        | Params           | Type | Keterangan |
@@ -70,7 +91,7 @@ Dan buka tauatan [localhost:8080](http://localhost:8080/)
 
 ## Sample response
 
-Hasil result json : https://darkcoder.xyz
+Hasil result json : https://simple-rest-api-example.herokuapp.com/
 ```json
 {
   "date":"2022-09-04T02:00:34.899Z",
