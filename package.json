@@ -1,0 +1,31 @@
+{
+  "name": "simple-rest-api",
+  "version": "1.0.0",
+  "description": "?",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoliKillers/simple-rest-api.git"
+  },
+  "keywords": [
+    "restapi",
+    "api"
+  ],
+  "author": "Loli Killers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoliKillers/simple-rest-api/issues"
+  },
+  "homepage": "https://github.com/LoliKillers/simple-rest-api#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "lolkil-scraper": "^1.0.5",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
